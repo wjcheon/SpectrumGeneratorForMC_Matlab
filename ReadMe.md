@@ -7,6 +7,8 @@ This code is X-ray spectrum generator for monte-carlo simulation (Geant4, Gate)
 3) Select the spectrum file which is generated from SpekCalc  
 4) Done.  
 
+* You can download the software (SpekCalc) on "http://spekcalc.weebly.com/"
+
 
 
 date: 2017.1.12  
