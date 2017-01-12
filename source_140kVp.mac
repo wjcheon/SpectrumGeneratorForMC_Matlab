@@ -1,0 +1,12 @@
+/gate/source/addSource xraygun
+/gate/source/xraygun/gps/type Volume
+/gate/source/xraygun/gps/shape Sphere
+/gate/source/xraygun/gps/radius 0.25 mm
+/gate/source/verbose 0
+/gate/source/xraygun/setActivity 35000. becquerel
+/gate/source/xraygun/gps/verbose 0
+/gate/source/xraygun/gps/particle gamma
+/gate/source/xraygun/gps/energytype Arb
+/gate/source/xraygun/gps/histname arb
+/gate/source/xraygun/gps/emin 0.00 keV
+/gate/source/xraygun/gps/emax 100.00 keV

@@ -1,0 +1,503 @@
+/tracking/verbose 2
+/run/verbose 2
+/gps/particle gamma
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 0 0 100 cm
+/gps/pos/halfx 5 cm
+/gps/pos/halfy 5 cm
+/gps/ene/min 0 keV
+/gps/ene/max 70 keV
+/gps/ene/emspec 0
+
+
+## energy spectrum set up ##
+/gps/ene/type User
+/gps/hist/type energy
+/gps/hist/point 0.055  32
+/gps/hist/point 32.000  48
+/gps/hist/point 46.000  48
+/gps/hist/point 48.000  52
+/gps/hist/point 51.000  56
+/gps/hist/point 50.000  56
+/gps/hist/point 13.000  10
+/gps/hist/point 0.056  32
+/gps/hist/point 32.000  53
+/gps/hist/point 46.000  56
+/gps/hist/point 49.000  50
+/gps/hist/point 52.000  54
+/gps/hist/point 53.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.057  32
+/gps/hist/point 32.000  52
+/gps/hist/point 55.000  56
+/gps/hist/point 46.000  54
+/gps/hist/point 51.000  53
+/gps/hist/point 52.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 56.000  50
+/gps/hist/point 54.000  49
+/gps/hist/point 46.000  51
+/gps/hist/point 49.000  52
+/gps/hist/point 13.000  10
+/gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  57
+/gps/hist/point 48.000  52
+/gps/hist/point 49.000  46
+/gps/hist/point 52.000  49
+/gps/hist/point 13.000  10
+/gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 56.000  57
+/gps/hist/point 57.000  54
+/gps/hist/point 49.000  46
+/gps/hist/point 49.000  53
+/gps/hist/point 13.000  10
+/gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  49
+/gps/hist/point 55.000  53
+/gps/hist/point 54.000  53
+/gps/hist/point 46.000  55
+/gps/hist/point 13.000  10
+/gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  53
+/gps/hist/point 55.000  55
+/gps/hist/point 48.000  49
+/gps/hist/point 46.000  52
+/gps/hist/point 13.000  10
+/gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 55.000  57
+/gps/hist/point 56.000  57
+/gps/hist/point 54.000  53
+/gps/hist/point 13.000  10
+/gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 50.000  51
+/gps/hist/point 50.000  52
+/gps/hist/point 56.000  51
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 55.000  49
+/gps/hist/point 48.000  54
+/gps/hist/point 55.000  57
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 49.000  57
+/gps/hist/point 51.000  56
+/gps/hist/point 50.000  55
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.049   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 54.000  54
+/gps/hist/point 51.000  57
+/gps/hist/point 49.000  55
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 48.000  57
+/gps/hist/point 50.000  53
+/gps/hist/point 56.000  52
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 52.000  54
+/gps/hist/point 52.000  49
+/gps/hist/point 55.000  53
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 55.000  55
+/gps/hist/point 52.000  51
+/gps/hist/point 53.000  49
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 48.000  49
+/gps/hist/point 57.000  55
+/gps/hist/point 48.000  54
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 50.000  48
+/gps/hist/point 51.000  57
+/gps/hist/point 51.000  51
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 51.000  49
+/gps/hist/point 55.000  52
+/gps/hist/point 48.000  50
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 52.000  48
+/gps/hist/point 48.000  49
+/gps/hist/point 50.000  57
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 52.000  51
+/gps/hist/point 53.000  56
+/gps/hist/point 49.000  50
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 52.000  51
+/gps/hist/point 52.000  55
+/gps/hist/point 49.000  50
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.050   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 52.000  48
+/gps/hist/point 52.000  53
+/gps/hist/point 50.000  57
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 51.000  52
+/gps/hist/point 51.000  57
+/gps/hist/point 57.000  56
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 50.000  54
+/gps/hist/point 56.000  56
+/gps/hist/point 56.000  51
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 49.000  55
+/gps/hist/point 53.000  55
+/gps/hist/point 48.000  51
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  46
+/gps/hist/point 48.000  55
+/gps/hist/point 52.000  49
+/gps/hist/point 49.000  50
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 57.000  54
+/gps/hist/point 51.000  48
+/gps/hist/point 50.000  57
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 56.000  52
+/gps/hist/point 49.000  54
+/gps/hist/point 48.000  54
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 55.000  49
+/gps/hist/point 53.000  48
+/gps/hist/point 51.000  53
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 53.000  56
+/gps/hist/point 56.000  51
+/gps/hist/point 57.000  55
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 52.000  53
+/gps/hist/point 57.000  53
+/gps/hist/point 52.000  49
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.051   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 51.000  50
+/gps/hist/point 54.000  53
+/gps/hist/point 53.000  51
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 49.000  57
+/gps/hist/point 55.000  49
+/gps/hist/point 51.000  52
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  46
+/gps/hist/point 48.000  54
+/gps/hist/point 56.000  51
+/gps/hist/point 52.000  54
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 57.000  52
+/gps/hist/point 48.000  54
+/gps/hist/point 53.000  49
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 56.000  49
+/gps/hist/point 51.000  51
+/gps/hist/point 53.000  49
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 54.000  56
+/gps/hist/point 57.000  53
+/gps/hist/point 55.000  54
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 53.000  54
+/gps/hist/point 55.000  57
+/gps/hist/point 53.000  49
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 52.000  52
+/gps/hist/point 55.000  52
+/gps/hist/point 52.000  55
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 51.000  51
+/gps/hist/point 49.000  48
+/gps/hist/point 55.000  55
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 50.000  49
+/gps/hist/point 54.000  55
+/gps/hist/point 55.000  56
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.052   0
+/gps/hist/point 32.000  32
+/gps/hist/point 50.000  46
+/gps/hist/point 49.000  48
+/gps/hist/point 54.000  52
+/gps/hist/point 57.000  54
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 57.000  57
+/gps/hist/point 54.000  51
+/gps/hist/point 54.000  50
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 56.000  56
+/gps/hist/point 57.000  55
+/gps/hist/point 48.000  49
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 55.000  56
+/gps/hist/point 54.000  48
+/gps/hist/point 49.000  55
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 54.000  56
+/gps/hist/point 51.000  52
+/gps/hist/point 54.000  57
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 53.000  56
+/gps/hist/point 52.000  55
+/gps/hist/point 50.000  48
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 52.000  56
+/gps/hist/point 55.000  57
+/gps/hist/point 48.000  50
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 51.000  57
+/gps/hist/point 50.000  49
+/gps/hist/point 51.000  49
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 50.000  57
+/gps/hist/point 57.000  49
+/gps/hist/point 52.000  49
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 50.000  48
+/gps/hist/point 55.000  55
+/gps/hist/point 54.000  50
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.053   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 49.000  49
+/gps/hist/point 56.000  48
+/gps/hist/point 54.000  57
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  46
+/gps/hist/point 48.000  50
+/gps/hist/point 56.000  49
+/gps/hist/point 48.000  50
+/gps/hist/point 101.000  43
+/gps/hist/point 54.000  13
+/gps/hist/point 10.000 /gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 57.000  52
+/gps/hist/point 48.000  50
+/gps/hist/point 56.000  50
+/gps/hist/point 46.000  54
+/gps/hist/point 13.000  10
+/gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 56.000  53
+/gps/hist/point 51.000  51
+/gps/hist/point 49.000  57
+/gps/hist/point 46.000  49
+/gps/hist/point 13.000  10
+/gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 55.000  54
+/gps/hist/point 54.000  49
+/gps/hist/point 52.000  55
+/gps/hist/point 46.000  49
+/gps/hist/point 13.000  10
+/gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 54.000  55
+/gps/hist/point 57.000  48
+/gps/hist/point 53.000  49
+/gps/hist/point 46.000  54
+/gps/hist/point 13.000  10
+/gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 53.000  57
+/gps/hist/point 49.000  50
+/gps/hist/point 50.000  55
+/gps/hist/point 46.000  55
+/gps/hist/point 13.000  10
+/gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 53.000  48
+/gps/hist/point 50.000  55
+/gps/hist/point 48.000  55
+/gps/hist/point 46.000  51
+/gps/hist/point 13.000  10
+/gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 52.000  48
+/gps/hist/point 53.000  57
+/gps/hist/point 48.000  48
+/gps/hist/point 46.000  52
+/gps/hist/point 13.000  10
+/gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 51.000  49
+/gps/hist/point 51.000  51
+/gps/hist/point 56.000  57
+/gps/hist/point 46.000  52
+/gps/hist/point 13.000  10
+/gps/hist/point 0.054   0
+/gps/hist/point 32.000  32
+/gps/hist/point 49.000  56
+/gps/hist/point 51.000  56
+/gps/hist/point 55.000  50
+/gps/hist/point 46.000  51
+/gps/hist/point 13.000  10
+/gps/hist/point 0.055   0
+/gps/hist/point 32.000  32
+/gps/hist/point 48.000  13
+/gps/hist/point 10.000 

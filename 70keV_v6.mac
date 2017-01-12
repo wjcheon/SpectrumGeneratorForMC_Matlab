@@ -1,0 +1,16 @@
+/tracking/verbose 2
+/run/verbose 2
+/gps/particle gamma
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 0 0 100 cm
+/gps/pos/halfx 5 cm
+/gps/pos/halfy 5 cm
+/gps/ene/min 0 keV
+/gps/ene/max 70 keV
+/gps/ene/emspec 0
+
+
+## energy spectrum set up ##
+/gps/ene/type User
+/gps/hist/type energy
