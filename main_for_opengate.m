@@ -3,7 +3,8 @@ clear
 close all
 
 %% OUTPUT FILE
-foutid = fopen('source_100kVp.mac','w');
+disp('Start!!')
+foutid = fopen('source_140kVp.mac','w');
 VerboseLevel = 0;
 SourceActivity = 35000;   % becquerel
 ActivityUnit = 'becquerel';
@@ -11,7 +12,7 @@ ParticleName = 'gamma';
 EnergyType = 'Arb';
 histoname = 'arb';
 ParimayParticleMinE = 0.0 ;
-ParimayParticleMaxE = 100.00 ;     % need to change as a proper parameter
+ParimayParticleMaxE = 140.00 ;     % need to change as a proper parameter
 EnergyUnit = 'keV';
 arbint = 'Lin';
 type = 'Volume';
@@ -19,11 +20,11 @@ shape = 'Sphere';
 radius = .25 ;
 
 minTheta = 0.;
-maxTheta = 6.2;
+maxTheta = 12.4;
 minPhi = 0.;
 maxPhi = 360.;
 ThetaUnit = 'deg';
-centere = [0 0 643.0];
+centere = [0 0 424.3];
 DistanceUnit = 'mm';
 angtype = 'iso';
 
@@ -74,7 +75,7 @@ fprintf(foutid,'/gate/source/list\n');
 
 fclose(foutid);
 clear
-disp('Done')
+disp('Done!!')
 
 
 
